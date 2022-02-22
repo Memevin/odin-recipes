@@ -3,4 +3,19 @@
 }
 .unordered{
     list-style-type:none;
+    box-sizing:border-box;
+    border: thick double rgb(86, 226, 44);
+    text-align:center;
+    width: px;
+    padding-right: 30px;
+    display: inline-block;
+}
+.rainbow{
+    background-image:repeating-linear-gradient(to left, violet,indigo,blue,green,yellow,orange,red);
+    -webkit-background-clip: text;
+    color:transparent
+}
+*{
+    box-sizing:border-box;
+    align-items: center;
 }
